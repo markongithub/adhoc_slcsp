@@ -27,4 +27,4 @@ test-suite adhoc-slcsp-test
   main-is:             Test.hs
   hs-source-dirs:      test
   type:                exitcode-stdio-1.0
-  build-depends:       base >=4.8 && <4.9, HUnit, test-framework, test-framework-hunit, adhoc-slcsp
+  build-depends:       base >=4.8 && <4.9, HUnit, test-framework, test-framework-hunit, adhoc-slcsp, containers
