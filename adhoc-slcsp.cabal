@@ -19,9 +19,10 @@ library
 
 executable slcsp
   main-is:             Main.hs
-  build-depends:       base >=4.8 && <4.9, bytestring, cassava, containers, vector
+  build-depends:       base >=4.8 && <4.9, bytestring, cassava, containers, vector, cmdargs
   hs-source-dirs:      src
   default-language:    Haskell2010
+  default-extensions:   DeriveDataTypeable
 
 test-suite adhoc-slcsp-test
   main-is:             Test.hs
